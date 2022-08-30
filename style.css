@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://i.imgur.com/x74A4Vb.gif);
+  background-size: cover;
+}
+
+main {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+  .icons {
+  display: flex;
+}
+
+main h1 {
+  font-family: Lobster;
+  font-size: 80px;
+  padding-bottom: 15px;
+  color: #93f339;
+}
+
+main i {
+  font-size: 30px;
+  padding-right: 10px;
+  -webkit-text-fill-color: white;
+}
+
+span {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+}
+
+span h4 {
+  font-size: 15px;
+  padding-bottom: 5px;
+  font-family: Roboto;
+  color: white;
+}
+
+span h5 {
+  padding-bottom: 5px;
+  font-family: Roboto;
+  color: white;
+}
+
+.links {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    background-position: center; /*ovo JE SAMO ZA MOB*/
+  }
+}
